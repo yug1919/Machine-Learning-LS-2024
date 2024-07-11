@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /content/drive/MyDrive/Colab Notebooks/Machine_Learning_LS_2024/Week_2/YOLOv8/data/test-20240711T212329Z-001/test/images
+val: /content/drive/MyDrive/Colab Notebooks/Machine_Learning_LS_2024/Week_2/YOLOv8/data/valid-20240711T212323Z-001/valid/images
+test: /content/drive/MyDrive/Colab Notebooks/Machine_Learning_LS_2024/Week_2/YOLOv8/data/train-20240711T212324Z-001/train/images
 
 nc: 16
 names: ['boot', 'car', 'door', 'front_bumper', 'front_grill', 'front_windshield', 'headlamp', 'hood', 'license_plate', 'panel', 'rear_bumper', 'rear_windshield', 'sideview_mirror', 'taillamp', 'wheel', 'window']
